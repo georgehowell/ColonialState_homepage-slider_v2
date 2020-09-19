@@ -1,5 +1,5 @@
 <template>
-    <slider></slider>
+    <Slider v-if="listing!=''" :listing="listing" />
 </template>
 
 <script>
@@ -10,11 +10,11 @@
       name: 'Sold',
       data(){
           return{
-              listings: json
+              listing: json
           }
       },
       components: {
-          'slider': Slider
+          Slider
       }
   }
 </script>

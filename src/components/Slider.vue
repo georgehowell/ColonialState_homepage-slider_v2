@@ -2,7 +2,7 @@
     <div id="container">
         <div class="simple-marquee-container">
             <div class="marquee">
-                <ul class="marquee-content-items" v-for="(data, key) in listings" :key="key">
+                <ul class="marquee-content-items" v-for="(data, key) in listing" :key="key">
                     <li class="resp-container">
                         <img src="../assets/img/corner2.png" class="corner-ribbon" alt="" />
                         <span class="rotate">{{ data.status }}</span>
@@ -27,6 +27,9 @@
             //   listings: json
           }
       },
+    props: {
+        listing: Array
+    }
   }
 </script>
 
