@@ -1,5 +1,5 @@
 <template>
-    <Slider v-if="listing!=''" :listing="listing" />
+    <Slider v-if="listing!=''" :listing="listing"/>
 </template>
 
 <script>

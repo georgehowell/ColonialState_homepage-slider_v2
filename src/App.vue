@@ -107,14 +107,14 @@ export default {
     padding: 30px 0;
     border: 1px solid #ccc;
     border-radius: 10px;
-  box-shadow: 3px 3px 6px #e1e1e1
+    box-shadow: 3px 3px 6px #e1e1e1;
 }
 #container {
     width: 100%;
     /* display: flex;
     flex-direction: row;
     justify-content: space-between; */
-    overflow: hidden;
+    overflow: hidden ;
     display: block;
 }
 #container * {

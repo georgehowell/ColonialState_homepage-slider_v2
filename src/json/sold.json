@@ -1,38 +1,37 @@
-{ "listings" : [  
+[  
     {
-        "status": " sold ",
+        "status": " - - s o l d - - ",
         "url": "https://www.realestate.com.au/sold/property-apartment-nsw-canterbury-130358534",
         "heroImg": "https://i2.au.reastatic.net/800x600/892ebdf1b70909cdffc5adf35592b3f867116f4026e623863bdb2459fa08c5be/main.jpg",
         "address": "12/1 Cook Ave, Canterbury, NSW 2193",
         "price": "$1,100,000"
     },
     {
-        "status": " sold ",
+        "status": " - - s o l d - - ",
         "url": "https://www.realestate.com.au/sold/property-apartment-nsw-glebe-130978170",
         "heroImg": "https://i2.au.reastatic.net/800x600/1866aa669dfda916000474928f19f9ffb3d7cfa3e098e5c71860ab83731a7231/main.jpg",
         "address": "36/211 Wigram Road, Glebe, NSW 2037",
         "price": "$780,000"
     },
      {
-        "status": " sold ",
+        "status": " - - s o l d - - ",
         "url": "https://www.realestate.com.au/sold/property-townhouse-nsw-campsie-130801034",
         "heroImg": "https://i2.au.reastatic.net/800x600/7c5084a1bbb49da4668ccf9a44e5f1c7b1b35126be9119ed2efe8d1e706adfe0/main.jpg",
         "address": "4/8 Gould Street, Campsie, NSW 2194",
         "price": "$735,000"
     },
     {
-        "status": " sold ",
+        "status": " - - s o l d - - ",
         "url": "https://www.realestate.com.au/sold/property-apartment-nsw-canterbury-130358534",
         "heroImg": "https://i2.au.reastatic.net/800x600/892ebdf1b70909cdffc5adf35592b3f867116f4026e623863bdb2459fa08c5be/main.jpg",
         "address": "22/1 Cook Ave, Canterbury, NSW 2193",
         "price": "$659,000"
     },
      {
-        "status": " sold ",
+        "status": " - - s o l d - - ",
         "url": "https://www.realestate.com.au/sold/property-house-nsw-alexandria-127823110",
         "heroImg": "https://i2.au.reastatic.net/800x600/11d9107e6ede1e81b491495622bacb5b289c1bd4a5f5eb257792f5bd2156a237/main.jpg",
         "address": "132 Henderson Road, Alexandria, NSW 2015",
         "price": "$1,800,000"
     }
 ]
-}

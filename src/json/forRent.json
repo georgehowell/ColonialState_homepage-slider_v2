@@ -1,4 +1,4 @@
-{ "listings" : [  
+ [  
     {
         "status": "for rent",
         "url": "https://www.realestate.com.au/property-studio-nsw-enmore-428635918",
@@ -70,4 +70,3 @@
    "price": "$540/week"
 }
 ]
-}

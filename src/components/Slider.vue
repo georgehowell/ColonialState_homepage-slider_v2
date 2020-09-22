@@ -2,8 +2,8 @@
     <div id="container">
         <div class="simple-marquee-container">
             <div class="marquee">
-                <ul class="marquee-content-items" v-for="(data, key) in listing" :key="key">
-                    <li class="resp-container">
+                <ul class="marquee-content-items">
+                    <li class="resp-container" v-for="(data, key) in listing" :key="key">
                         <img src="../assets/img/corner2.png" class="corner-ribbon" alt="" />
                         <span class="rotate">{{ data.status }}</span>
                         <a :href="data.url" target="_blank">
@@ -16,20 +16,21 @@
             </div>
         </div>
     </div>
+
 </template>
 
 <script>
-    // import json from '../json/forRent.json'
   export default {
       name: 'Slider',
-      data(){
+      data() {
           return{
-            //   listings: json
+            // timer: 0
           }
       },
     props: {
         listing: Array
-    }
+    },
+
   }
 </script>
 
@@ -67,7 +68,8 @@
     background-color: #c8c8c8;
 }
 .resp-container .corner-ribbon {
-    float: right;
+    position: relative;
+    right: 0;
 }
 .resp-container h2 {
     font-family: 'Crete Round', serif;
@@ -99,7 +101,7 @@
 
 .rotate {
     position: absolute;
-    right: 3px;
+    right: 2px;
     top: 32px;
     font-size: 22px;
     text-transform: uppercase;
@@ -118,8 +120,30 @@
   
 
 .simple-marquee-container {
-    height: 279px;
+    height: 280px;
     background-color: #212059;
-    padding: 4px 0 0 0;
+    padding: 9px 0 0 0;
+}
+
+.simple-marquee-container .marquee ul {
+  display: block;
+  width: 150%;
+  height: 300px;
+
+  position: absolute;
+  overflow: hidden;
+
+  animation: marquee 20s linear infinite;
+}
+ 
+.resp-container {
+  float: left;
+  width: 400px;
+  margin-right: 30px;
+}
+
+@keyframes marquee {
+  0% { left: 0; }
+  100% { left: -100%; }
 }
 </style>

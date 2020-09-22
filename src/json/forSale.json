@@ -1,4 +1,4 @@
-{ "listings" : [  
+[  
     {
         "status": "for sale",
         "url": "https://www.realestate.com.au/sold/property-apartment-nsw-canterbury-130358534",
@@ -56,4 +56,3 @@
         "price": "$1,800,000"
     }
 ]
-}
