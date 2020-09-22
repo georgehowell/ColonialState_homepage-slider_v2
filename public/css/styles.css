@@ -1,3 +1,14 @@
 body {
     padding-top: 65vh;
 }
+
+
+@media only screen 
+  and (min-device-width: 350px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .simple-marquee-container .marquee ul {
+        animation: none;
+    }
+}

@@ -146,4 +146,26 @@
   0% { left: 0; }
   100% { left: -100%; }
 }
+
+@media only screen 
+  and (min-device-width: 350px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+#app #tabs .content .tabcontent #container {height: 3000px;}
+.simple-marquee-container {
+    background-color: #fff;
+}
+    .simple-marquee-container .marquee ul {
+        animation: none;
+        width: 90%;
+        height: fit-content;
+        margin: 0 auto 0 5%;
+    }
+    .simple-marquee-container .marquee li.resp-container {
+        width: 100%;
+    }
+}
+
 </style>
